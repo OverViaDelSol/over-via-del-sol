@@ -455,6 +455,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  row-gap: 2rem
   padding: 1rem;
 }
 
@@ -872,7 +873,6 @@ body {
     background-color: var(--primary-background-body);
     transform: translateY(-450px);
     transition: transform 0.5s linear;
-    background-color: red;
   }
 
   .intro__ul {
