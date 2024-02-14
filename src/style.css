@@ -455,7 +455,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  row-gap: 2rem
   padding: 1rem;
 }
 
@@ -467,7 +466,6 @@ body {
   font-size: 2.3rem;
   font-weight: 700;
   font-family: var(--font-text);
-  margin-bottom: 1rem;
 }
 
 .statistics__des {
@@ -940,6 +938,7 @@ body {
 
   .statistics__container {
     flex-direction: column;
+    gap: 1.5rem;
   }
 
   .foo__logo {
